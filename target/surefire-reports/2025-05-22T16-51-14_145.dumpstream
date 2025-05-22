@@ -1,0 +1,5 @@
+# Created at 2025-05-22T16:51:14.644
+Boot Manifest-JAR contains absolute paths in classpath 'D:\SmartInventoryProject-B\InMan-backend-main\InventoryManagement\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
