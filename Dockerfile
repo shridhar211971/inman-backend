@@ -3,7 +3,7 @@ FROM eclipse-temurin:17-jdk AS build
 
 WORKDIR /app
 COPY . .
-RUN chmod +x mvnw && ./mvnw clean package -DskipTests
+RUN mvn clean package -DskipTests
 
 # ====== run stage ======
 FROM eclipse-temurin:17-jre
