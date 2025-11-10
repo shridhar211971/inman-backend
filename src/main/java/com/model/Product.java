@@ -22,7 +22,7 @@ public class Product {
     private int quantity;
     
     @Lob
-    @Column(name = "product_image", columnDefinition = "LONGBLOB")
+    @Column(name = "product_image", columnDefinition = "BYTEA")
     private byte[] productImage;
 
     @OneToMany(mappedBy = "product", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
