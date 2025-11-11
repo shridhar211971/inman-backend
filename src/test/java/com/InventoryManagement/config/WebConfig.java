@@ -1,4 +1,4 @@
-package com.InventoryManagement;
+package com.InventoryManagement.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
